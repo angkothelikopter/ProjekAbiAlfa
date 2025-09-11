@@ -1,11 +1,26 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1 class="mb-4 text-center">Daftar Artikel</h1>
+    <h1 class="mb-4 text-center">Article</h1>
     <div class="row">
-        @foreach($articles as $article)
+        @foreach($articles as $index => $article)
             <div class="col-md-4">
                 <div class="card mb-3 shadow-sm">
+                    @if($index === 0)
+                    <img src="{{ asset('MU.jpg') }}" 
+                         class="card-img-top" 
+                         alt="Gambar Artikel Pertama">
+                @endif
+                @if($loop->iteration == 2)
+                    <img src="{{ asset('Andre.jpg') }}" 
+                         class="card-img-top" 
+                         alt="Gambar Artikel Kedua">
+                @endif
+                @if($loop->iteration == 3)
+                    <img src="{{ asset('Lammens.jpg') }}" 
+                         class="card-img-top" 
+                         alt="Gambar Artikel Ketiga">
+                @endif
                     <div class="card-body">
                         <h5 class="card-title">{{ $article['title'] }}</h5>
                         <p class="card-text">{{ $article['description'] }}</p>
