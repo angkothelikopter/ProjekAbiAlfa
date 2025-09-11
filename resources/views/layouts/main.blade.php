@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel Simple Web</title>
+    <title>ProjekAbiAlfa2025</title>
     <!-- Bootstrap CSS (offline) -->
     <link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="icon" href="{{ asset('MU.jpg') }}">
+
     <style>
         :root {
             --primary: #4e73df;
@@ -161,12 +163,36 @@
             margin-right: 5px;
             font-size: 1.1em;
         }
+        .row .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Bungkus gambar agar tidak ubah ukuran proporsional */
+   .image-container {
+    width: 250px;       /* lebar sesuai proporsi */
+    height: 334px;      /* tinggi sesuai proporsi */
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;     /* biar center */
+}
+
+.image-container img {
+    width: 100%;        
+    height: 100%;
+    object-fit: cover;  
+    border-radius: 8px; 
+}
+.card-custom {
+    width: 250px;   
+    margin: 10px auto;
+}
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home') }}">MyLaravelSite</a>
+            <a class="navbar-brand" href="{{ route('home') }}">WebsiteProject👍</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -175,7 +201,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">
-                            <span class="icon-home"></span>Home
+                            🏠Home
                         </a>
                     </li>
                     <li class="nav-item">
@@ -185,7 +211,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" href="{{ route('contact') }}">
-                            <span class="icon-contact"></span>Contact
+                            📬Contact
                         </a>
                     </li>
                 </ul>
@@ -203,7 +229,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
         <div class="container">
-            <p class="mb-2">&copy; 2025 MyLaravelSite. All rights reserved.</p>
+            <p class="mb-2">&copy; 2025 MyOnlySite. All rights reserved.</p>
             <div class="social-icons">
                 <span>f</span>
                 <span>t</span>
@@ -215,5 +241,7 @@
 
     <!-- Bootstrap JS Offline -->
     <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+
 </body>
 </html>
