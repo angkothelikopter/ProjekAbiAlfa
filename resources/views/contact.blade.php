@@ -7,7 +7,7 @@
         <p><b>Haris Atha Hibatullah</b></p>
         <p>Email: harisathahibatullah6@gmail.com</p>
         <p>Telepon: +62 812-3456-7890</p>
-        <p>Alamat: Jl. Merdeka No. 123, Cirebon</p><br>
+        <p>Alamat: Jl. Sultan Ageng Tirtayasa 01, Kabupaten Cirebon</p><br>
           <p><b>Muhammad Nizar Al-Faiz</b></p>
         <p>Email: rearonald35@gmail.com</p>
         <p>Telepon: +62 812-2030-3730</p>

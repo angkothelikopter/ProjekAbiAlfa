@@ -21,9 +21,25 @@
                          class="card-img-top" 
                          alt="Gambar Artikel Ketiga">
                 @endif
+                 @if($loop->iteration == 4)
+                    <img src="{{ asset('rrq.jpg') }}" 
+                         class="card-img-top" 
+                         alt="Gambar Artikel Keempat">
+                @endif
+                @if($loop->iteration == 5)
+                    <img src="{{ asset('ff.jpg') }}" 
+                         class="card-img-top" 
+                         alt="Gambar Artikel Kelima">
+                @endif
+                @if($loop->iteration == 6)
+                    <img src="{{ asset('efootball.jpg') }}" 
+                         class="card-img-top" 
+                         alt="Gambar Artikel Keenam">
+                @endif
                     <div class="card-body">
                         <h5 class="card-title">{{ $article['title'] }}</h5>
                         <p class="card-text">{{ $article['description'] }}</p>
+                        
                     </div>
                 </div>
             </div>
