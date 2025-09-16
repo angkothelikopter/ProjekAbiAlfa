@@ -14,7 +14,7 @@
                     <div class="profile-img-container mx-auto mb-4">
                         <img src="{{ asset('imgabi.jpg') }}" class="profile-img" alt="Kontak 1">
                     </div>
-                    <h3 class="card-title fw-bold mb-3">Team Member 1</h3>
+                    <h3 class="card-title fw-bold mb-3">Haris Atha Hibatullah</h3>
                     
                     <div class="contact-info">
                         <div class="contact-item">
@@ -22,7 +22,7 @@
                                 <i class="fas fa-user"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Nama:</span> Harist Atta Hibatullah
+                                <span class="fw-semibold">Nama:</span> Haris Atha Hibatullah
                             </div>
                         </div>
                         
@@ -31,35 +31,35 @@
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Email:</span> hwwwww
+                                <span class="fw-semibold">Email:</span>harisathahibatullah6@gmail.com
                             </div>
                         </div>
                         
                         <div class="contact-item">
                             <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
+                                <i class="fa-brands fa-github"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Telepon:</span> wwwwwwww
+                                <span class="fw-semibold">Github:</span> r1seeeCode
                             </div>
                         </div>
                         
                         <div class="contact-item">
                             <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
+                                <i class="fa-brands fa-tiktok"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Alamat:</span> ww
+                                <span class="fw-semibold">TikTok:</span> rndmppl
                             </div>
                             
                         </div>
 
                          <div class="contact-item">
                             <div class="contact-icon">
-                                <i class="fa-brands fa-github"></i>
+                                <i class="fa-brands fa-instagram"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Alamat:</span> ww
+                                <span class="fw-semibold">Instagram:</span> r1skendoo
                             </div>
                             
                         </div>
