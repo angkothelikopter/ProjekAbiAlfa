@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1 class="mb-4 text-center">🔥Berita Panas🔥</h1>
+    <h1 class="mb-4 text-center">Berita Panas</h1>
     <div class="row">
         @foreach($articles as $index => $article)
             <div class="col-md-4">

@@ -80,10 +80,10 @@
                     <div class="contact-info">
                         <div class="contact-item">
                             <div class="contact-icon">
-                                <i class="fas fa-user"></i>
+                                <i class="fa-brands fa-whatsapp"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Nama:</span> Muhammad Nizar Al-Faiz
+                                <span class="fw-semibold">WhatsApp:</span>+62 812-2030-3730
                             </div>
                         </div>
                         
@@ -113,7 +113,7 @@
                                 <i class="fa-brands fa-steam"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Steam:</span> angkothelikopter
+                                <span class="fw-semibold">Steam:</span> Butternutsquash.mp4
                             </div>
                             
                         </div>
