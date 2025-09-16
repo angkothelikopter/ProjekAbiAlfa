@@ -19,10 +19,10 @@
                     <div class="contact-info">
                         <div class="contact-item">
                             <div class="contact-icon">
-                                <i class="fas fa-user"></i>
+                                <i class="fa-brands fa-whatsapp"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Nama:</span> Haris Atha Hibatullah
+                                <span class="fw-semibold">Whatsapp:</span> +62 813-1813-5195
                             </div>
                         </div>
                         
@@ -40,7 +40,7 @@
                                 <i class="fa-brands fa-github"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Github:</span> r1seeeCode
+                                <span class="fw-semibold">Github:</span> r1seeeCodeee
                             </div>
                         </div>
                         
@@ -59,7 +59,7 @@
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Instagram:</span> r1skendoo
+                                <span class="fw-semibold">Instagram:</span> @r1skendoo
                             </div>
                             
                         </div>
@@ -122,7 +122,7 @@
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
                             <div class="contact-text">
-                                <span class="fw-semibold">Instagram:</span> angkothelikopter
+                                <span class="fw-semibold">Instagram:</span> @jemuranalumunium
                             </div>
                             
                         </div>
